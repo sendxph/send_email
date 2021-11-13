@@ -8,7 +8,7 @@ fn f_exist() -> bool {
 fn create_ini() {
     let mut conf = Ini::new();
     conf.with_section(Some("Mail Server"))
-        .set("ip", "10.225.21.2")
+        .set("ip", "10.8.192.228")
         .set("port", "25");
     conf.with_section(Some("Receiver"))
         .set("number", "2")
