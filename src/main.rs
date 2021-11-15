@@ -12,8 +12,8 @@ fn create_ini() {
         .set("port", "25");
     conf.with_section(Some("Receiver"))
         .set("number", "2")
-        .set("receiver1", "user1@hello.com")
-        .set("receiver2", "user2@hello.com");
+        .set("receiver1", "user1@test.com")
+        .set("receiver2", "user2@test.com");
     conf.with_section(Some("Subject"))
         .set("subject", "Brand Check");
     conf.with_section(Some("Body"))
